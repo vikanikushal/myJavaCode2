@@ -66,7 +66,11 @@ public class problem3 {
         System.out.println(serialized);
 
         Node deserialized_root = deserializeBinaryTree(serialized);
+
+        assert deserialized_root != null;
         System.out.println(deserialized_root.left.left.val);
+
+
 
     }
 }
